@@ -1,4 +1,4 @@
-# MC Technology's zmk-config for corne - sofle - lily58
+# MC Technology's zmk-config for corne - sofle - lily581
 
 [![MC Technology](https://github.com/mctechnology17/mctechnology17/blob/main/src/mctechnology_extendido.GIF)](https://www.youtube.com/channel/UC_mYh5PYPHBJ5YYUj8AIkcw)
 
