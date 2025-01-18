@@ -117,9 +117,9 @@ include:
     artifact-name: nice_corne_left_peripheral_oled
 
     # peripheral_left + puchi_ble_v1 + nice_oled
-  - board: puchi_ble_v1
-    shield: corne_left_peripheral nice_oled
-    artifact-name: puchi_corne_left_peripheral_oled
+#  - board: puchi_ble_v1
+#    shield: corne_left_peripheral nice_oled
+#    artifact-name: puchi_corne_left_peripheral_oled
     ### nice_oled END ###
 
     ### Xiao_Dongle START ###
@@ -169,15 +169,15 @@ include:
 
   ### SOFLEV2 SOFLEV1 SOFLEPLUS START ###
   # nice!oled sofle
-  - board: nice_nano_v2
-    shield: sofle_left nice_oled
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_sofle_left_oled
-    snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
-    shield: sofle_right nice_oled
-    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_sofle_right_oled
+#  - board: nice_nano_v2
+#    shield: sofle_left nice_oled
+#    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_sofle_left_oled
+#    snippet: studio-rpc-usb-uart
+#  - board: nice_nano_v2
+#    shield: sofle_right nice_oled
+#    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_sofle_right_oled
 
   # peripheral_left
   - board: nice_nano_v2
@@ -202,15 +202,15 @@ include:
 
   ### LILY58 START ###
   # nice!oled lily58
-  - board: nice_nano_v2
-    shield: lily58_left nice_oled
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"lily58_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_lily58_left_oled
-    snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
-    shield: lily58_right nice_oled
-    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_lily58_right_oled
+#  - board: nice_nano_v2
+#    shield: lily58_left nice_oled
+#    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"lily58_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_lily58_left_oled
+#    snippet: studio-rpc-usb-uart
+#  - board: nice_nano_v2
+#    shield: lily58_right nice_oled
+#    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_lily58_right_oled
 
   # peripheral_left
   - board: nice_nano_v2
@@ -235,15 +235,15 @@ include:
 
   ### SPLITKB AURORA SOFLE START ###
   # nice!oled splitkb_aurora_sofle
-  - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_left nice_oled
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"A_Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_splitkb_aurora_sofle_left_oled
-    snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
-    shield: splitkb_aurora_sofle_right nice_oled
-    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
-    artifact-name: nice_splitkb_aurora_sofle_right_oled
+#  - board: nice_nano_v2
+#    shield: splitkb_aurora_sofle_left nice_oled
+#    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"A_Sofle_Oled\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_splitkb_aurora_sofle_left_oled
+#    snippet: studio-rpc-usb-uart
+#  - board: nice_nano_v2
+#    shield: splitkb_aurora_sofle_right nice_oled
+#    cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
+#    artifact-name: nice_splitkb_aurora_sofle_right_oled
 
   # peripheral_left
   - board: nice_nano_v2
