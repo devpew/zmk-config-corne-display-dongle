@@ -130,7 +130,7 @@ include:
     artifact-name: xiao_corne_dongle
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    shield: corne_dongle_xiao dongle_display prospector_adapter
+    shield: corne_dongle_xiao dongle_display
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Xiao_Dongle_O\"
     artifact-name: xiao_corne_dongle_oled
     snippet: studio-rpc-usb-uart
